@@ -256,10 +256,6 @@ const InquiryForm = () => {
             </Modal>
             {div1}
 
-            {div2}
-
-            {div3}
-
             <SubmitInquiry type={queryId}
                             formImg={formImage}
                             spinners={spinner}
@@ -268,6 +264,11 @@ const InquiryForm = () => {
                             submitQuery={queryId === 'sale' ? saleQuery : repairQuery}
                             submitBtnDisable={btnDisable}
                             />
+                            
+            {div2}
+
+            {div3}
+
             <GetAquote />
         </>
     )

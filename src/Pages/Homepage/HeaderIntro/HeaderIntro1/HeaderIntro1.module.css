@@ -44,20 +44,20 @@
     width: 220px;
     border-radius: 20px;
     border: 1px solid transparent;
-    background-color: #bbbbbbc4;
+    background-color: #bbbbbb61;
     cursor: pointer;
     animation: btn 2s ease-out forwards;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #646161;
+    color: white;
+    font-weight: bold;
 }
 
 .btn:hover {
     background-color: white;
     color: black;
-    font-weight: 800;
 }
 
 @keyframes head1 {
