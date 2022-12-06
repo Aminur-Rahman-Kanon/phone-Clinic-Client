@@ -24,7 +24,7 @@ class CurrencyConverter extends Component {
         window.scrollTo(0, 0);
         aos.init({duration: 1300});
 
-        axios.get('https://phone-clinic-server.onrender.com/currencyData')
+        axios.get('https://phoneclinicserver.onrender.com/currencyData')
         .then(res => {
             this.setState({rate: res.data, loader: false})
         }).catch(error => {
